@@ -1,0 +1,133 @@
+/* Container Styles */
+.comp1-container {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .header p {
+    color: #666;
+  }
+  
+  .header-buttons {
+    margin-top: 20px;
+  }
+  
+  .header-buttons .demo-button,
+  .header-buttons .signup-button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .demo-button {
+    background-color: #e0e0e0;
+  }
+  
+  .signup-button {
+    background-color: #6a0dad;
+    color: white;
+  }
+  
+  /* Main Content */
+  .main-content {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Stats Section */
+  .stats-section {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .stats-section h2 {
+    font-size: 1.5rem;
+  }
+  
+  .profile-views img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  .fans-designers {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .biggest-fans, .favorite-designers {
+    width: 45%;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #f0f0f0;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Chat Section */
+  .chat-section {
+    flex: 1;
+    padding-left: 20px;
+    border-left: 1px solid #ddd;
+  }
+  
+  .chat-section h2 {
+    font-size: 1.5rem;
+  }
+  
+  .chat-message {
+    margin-top: 10px;
+  }
+  
+  .chat-box {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .chat-text {
+    color: #444;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .footer p {
+    font-size: 1.2rem;
+  }
+  
+  .footer .logos img {
+    width: 100px;
+    margin: 10px;
+  }
+  

@@ -14,21 +14,19 @@ const Comp4 = () => {
         </div>
         <div className="blog-posts">
           <BlogPost 
-            image="path/to/image1.jpg" 
             title="UX review presentations" 
             category="Design" 
             author="Olivia Rhye" 
             date="20 Jan 2024" 
           />
           <BlogPost 
-            image="path/to/image2.jpg" 
             title="Migrating to Linear 101" 
             category="Product" 
             author="Phoenix Baker" 
             date="19 Jan 2024" 
           />
           <BlogPost 
-            image="path/to/image3.jpg" 
+            // image="path/to/image3.jpg" 
             title="Building your API stack" 
             category="Software Engineering" 
             author="Lana Steiner" 

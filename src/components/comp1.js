@@ -1,6 +1,7 @@
 import React from 'react';
 import './comp1.css';
-import img from './figmacomp1_img.png'
+import img from './figmacomp1_img.png';
+import img4 from './Symbol.png';
 
 const Comp1 = () => {
   return (
@@ -24,10 +25,11 @@ const Comp1 = () => {
       <footer className="footer">
         <p>Join 4,000+ companies already growing</p>
         <div className="logos">
-          <img src="logo1.png" alt="Boltshift" />
+        <img src={img4}/>
+          {/* <img src="logo1.png" alt="Boltshift" />
           <img src="logo2.png" alt="Lightbox" />
           <img src="logo3.png" alt="FeatherDev" />
-          <img src="logo4.png" alt="Spherule" />
+          <img src="logo4.png" alt="Spherule" /> */}
         </div>
       </footer>
     </div>

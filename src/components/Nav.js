@@ -1,12 +1,13 @@
 import React from 'react';
 import './Nav.css';
+import img5 from './dot.png';
 
 const Nav = () => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
         <div className="logo">
-          <img src="logo.png" alt="Untitled UI Logo" />
+          <img src={img5} alt="Untitled UI Logo" />
           <span>Untitled UI</span>
         </div>
         <ul className="nav-links">
@@ -24,7 +25,9 @@ const Nav = () => {
       </div>
       <div className="navbar-right">
         {/* Profile image will be added here */}
-        <div className="profile-img"></div>
+        <div className="profile-img">
+          
+        </div>
       </div>
     </nav>
   );

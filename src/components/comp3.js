@@ -1,13 +1,14 @@
 import React from 'react';
 import './comp3.css';
-import img1 from './figmacomp1_img.png'
+import img1 from './figmacom3_img.png'
+import img3 from './SupportTeam.png'
 
 const Comp3 = () => {
   return (
     <div className="comp3-container">
       {/* Header section */}
       <header className="comp3-header">
-        <div className="comp3-logo">Fill × Hug</div>
+        {/* <div className="comp3-logo"></div> */}
         <h1>Cutting-edge features for advanced analytics</h1>
         <p>
           Powerful, self-serve product and growth analytics to help you convert, engage, 
@@ -56,9 +57,10 @@ const Comp3 = () => {
 
       {/* Support Section */}
       <div className="comp3-support">
+      <img src={img3} alt="Support team" />
         <h3>Still have questions?</h3>
         <p>Can’t find the answer you’re looking for? Please chat to our friendly team.</p>
-        <img src="path/to/support-team-image.jpg" alt="Support team" />
+        
       </div>
     </div>
   );

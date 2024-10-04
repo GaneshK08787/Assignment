@@ -1,6 +1,8 @@
 import React from 'react';
 import './Nav.css';
 import img5 from './dot.png';
+import { FaUserAlt } from "react-icons/fa";
+
 
 const Nav = () => {
   return (
@@ -24,8 +26,12 @@ const Nav = () => {
         </ul>
       </div>
       <div className="navbar-right">
-        {/* Profile image will be added here */}
+        
         <div className="profile-img">
+        
+
+      
+
           
         </div>
       </div>

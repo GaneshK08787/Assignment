@@ -84,7 +84,7 @@ const Comp4 = () => {
 // Blog post component
 const BlogPost = ({ image, title, category, author, date }) => (
   <div className="blog-post">
-    <img src={image} alt={title} />
+    {/* <img src={image} alt={title /> */}
     <div className="blog-post-info">
       <span>{category}</span>
       <h4>{title}</h4>
